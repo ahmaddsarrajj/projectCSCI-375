@@ -1,0 +1,275 @@
+body{
+    background-color: black;
+    color: white;
+}
+/*navbar style*/
+.navbar{
+    background-color: black;
+  }
+  
+  .logo{
+      color: #f5f7f7;
+      display: inline;
+      float: left;
+      font-family: 'Exo', sans-serif;
+      margin-top: 10px;
+      font-size: 20px;
+  }
+  ul {
+  
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000407;
+      float: right;
+    }
+    
+    li {
+      float: left;
+      
+    }
+    
+    li a {
+      display: block;
+      color: #757575;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      color: #f5f7f7;
+    }
+  
+   /*statr*/
+   
+
+.backg{
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    
+}
+.quotes{
+    font-size: 60px;
+    font-family: 'Sigmar One', cursive;
+    margin-left: 30px;
+    position: absolute;
+    top:150px;
+    left:30px;
+    color: #f7f5f5;
+    z-index: 2;
+}
+.quotes p{
+    margin-top: -5px;
+}
+.typewriter{
+    position: absolute;
+    top: 340px;
+}
+.typewriter h1 {
+    margin-left: 45px;
+    font-size: 20px;
+    color: #f5f7f7;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation*/ 
+   /* border-right: .15em solid #79031d; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+   /* margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(30, end),
+      blink-caret .51s step-end ;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #79031d00 }
+  }
+
+
+  .typewriter1{
+    position: absolute;
+    top: 370px;
+}
+.typewriter1 h1 {
+    margin-left: 45px;
+    font-size: 20px;
+    color: #f5f7f7;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation*/ 
+    border-right: .15em solid #79031d; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+   /* margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #79031d }
+  }
+
+
+.btn{ 
+    position: relative;
+    left: 270px;
+    top: 450px;
+    border: none;/* Remove borders */ 
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    
+  }
+  .btn a {
+      color: black;
+      text-decoration: none;
+  }
+  
+  .warning {background-color: #fab803;} 
+  .warning:hover {background-color: #fab803cc;}
+
+  /*info-style*/
+  .found{
+    width: 100%;
+    position: relative;
+    top: 700px;
+} 
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-right: 500px solid #79031d;
+    border-bottom: 250px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -8px;
+    z-index: -1;
+}
+.triangle2{
+    width: 0;
+    height: 0;
+    border-top: 250px solid transparent;
+    border-left: 500px solid #79031d;
+    border-bottom: 250px solid transparent;
+    position: absolute;
+    top: 500px;
+    left:-10px;
+    
+}
+.title{
+    font-family: 'Sigmar One', cursive;
+    color: #f5f7f7;
+    font-size: 50px;
+    margin-left: 580px;
+}
+.description{
+    color: #f5f7f7;
+    margin-left: 500px;
+    width: 400px;
+    text-align: center;
+}
+
+
+.reference{
+    background-color: #f5f7f7;
+    width: 1351px;
+    position: absolute;
+    top: 1800px;
+    margin-left: -10px;
+    }
+.me{
+    color: #757575;
+    text-align: center;
+    padding:20px;    
+}
+
+/*signup-style*/
+form{
+    margin-top: 300px;
+    background-color: black;
+    width: 100%; 
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  form button {
+    background-color: #79031d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  
+  
+ 
+  .signupbtn {
+    float: left;
+    width: 100%;
+  }
+  .signupbtn a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+    
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  
